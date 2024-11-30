@@ -1,1 +1,2 @@
-# Data-Mining-
+# Data-Mining
+This project developed and evaluated three deep learning architectures (LSTM, GRU, and Transformer) for automated glaucoma detection from clinical notes, ensuring fair performance across racial groups. Using the FairCLIP dataset of 10,000 clinical records, we implemented models with preprocessing steps including tokenization and sequence padding. The Transformer architecture achieved state-of-the-art performance with 0.819 AUC-ROC, followed by GRU (0.807) and LSTM (0.799). All models maintained consistent performance across Asian, Black, and White populations with variations under 0.04 AUC-ROC points. Results demonstrate the effectiveness of deep learning for processing unstructured medical text while maintaining demographic fairness.
